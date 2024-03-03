@@ -1,16 +1,24 @@
 
 export function Container(props) {
-    return <div className="container-fluid">{props.children}</div>;
+    const position = props.position ? `${props.position}` : '';
+
+    return <div className={`container-fluid ${position}`}>{props.children}</div>;
 }
 
 export function Row(props) {
-    return <div className="row">{props.children}</div>;
+    const position = props.position ? `${props.position}` : '';
+    
+    return <div className={`row ${position}`}>{props.children}</div>;
 }
 
 export function Col(props) {
     const size = props.size.split(" ").map(size => "col-" + size).join(" ");
+    const position = props.position ? `${props.position}` : '';
+    const display = props.display ? `${props.display}` : '';
 
-    return <div className={size}>{props.children}</div>;
+    const classNames = `${size} ${display} ${position}`;
+
+    return <div className={classNames}>{props.children}</div>;
 }
 
 

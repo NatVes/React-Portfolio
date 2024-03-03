@@ -15,7 +15,7 @@ function App() {
           <Col size="md-3">
             <NavBar />
           </Col>
-          <Col size="md-9">
+          <Col size="md-9" display="d-flex" position="align-items-center">
             <Routes>
               <Route path="/" element={<About/>} />
             </Routes>
