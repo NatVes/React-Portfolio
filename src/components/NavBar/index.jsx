@@ -4,8 +4,8 @@ import "./style.css";
 function NavBar() {    
 
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
+        <nav className="navbar navbar-expand-lg bg-danger">
+            <div className="container-fluid">                
                 <img src="src/assets/me.jpg" alt="My photo" className="rounded-circle" width="200px"/>
                 <Link className="navbar-brand" to="/">
                     Natalia Veselova
