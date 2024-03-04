@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Container, Row, Col } from './components/Grid';
 import NavBar from './components/NavBar';
 import About from './pages/About';
+import ProjectGallery from './pages/Project Gallery';
 import './App.css'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           <Col size="md-9" display="d-flex" position="align-items-center">
             <Routes>
               <Route path="/" element={<About/>} />
+            </Routes>
+            <Routes>
+              <Route path="/project-gallery" element={<ProjectGallery/>} />
             </Routes>
           </Col>
         </Row>        
