@@ -6,6 +6,7 @@ import NavBar from './components/NavBar';
 import About from './pages/About';
 import ProjectGallery from './pages/Project-Gallery';
 import ProjInfo from './components/ProjInfo';
+import Contact from './pages/Contact';
 // import './App.css'
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
               <Route path="/" element={<About/>} />            
               <Route path="/project-gallery" element={<ProjectGallery/>} />
               <Route path="/project-gallery/:id" element={<ProjInfo/>} />
+              <Route path="/contact" element={<Contact/>} />
             </Routes>
           </Col>
         </Row>        
