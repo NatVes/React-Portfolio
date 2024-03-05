@@ -55,8 +55,6 @@ function Form() {
                 <input type="text" className="form-control" id="FormControlInput1" placeholder="John Doe" value={formData.name} name="name" onChange={handleInputChange}/>
                 <label for="FormControlInput2" className="form-label">Email address</label>
                 <input type="email" className="form-control" id="FormControlInput2" placeholder="email@gmail.com" value={formData.email} name="email" onChange={handleInputChange} required/>
-            </div>
-            <div className="mb-3">
                 <label for="Textarea" className="form-label">Message</label>
                 <textarea className="form-control" id="Textarea" rows="3" value={formData.message} name="message" onChange={handleInputChange}></textarea>
             </div>
