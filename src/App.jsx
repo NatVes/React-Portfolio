@@ -7,6 +7,7 @@ import About from './pages/About';
 import ProjectGallery from './pages/Project-Gallery';
 import ProjInfo from './components/ProjInfo';
 import Contact from './pages/Contact';
+// import Footer from './components/Footer';
 // import './App.css'
 
 function App() {
