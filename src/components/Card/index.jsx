@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import "./style.css";
 
 function ProjectCard(props) {
@@ -8,9 +9,12 @@ function ProjectCard(props) {
             </div>
             <div className="card-body">
                 <h5 className="card-title">{ props.title }</h5> 
-                    <button onClick={props.openProject} className="btn btn-primary">
+                <Link to={`/project-gallery/${props.id}`}>
+                    <button className="btn btn-primary">
                         Open
                     </button>
+                </Link>
+                    
             </div>
         </div>
     )
