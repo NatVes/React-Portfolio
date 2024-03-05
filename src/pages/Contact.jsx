@@ -6,7 +6,7 @@ function Contact() {
         <div>
             <Container>
                 <Row position="justify-content-center">
-                    <Col size="md-9" >
+                    <Col size="md-6" >
                         
                         <Form />
                     </Col>

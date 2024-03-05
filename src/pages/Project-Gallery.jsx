@@ -8,7 +8,7 @@ function ProjectGallery() {
 
     return (
         <>
-            <Container>
+            {/* <Container> */}
                     <Row position="justify-content-center gap-4 my-5">
                         {projectData.map((project) => (
                             <ProjectCard 
@@ -22,7 +22,7 @@ function ProjectGallery() {
                             />
                         ))}                        
                     </Row>
-                </Container>
+                {/* </Container> */}
         </>
     )
 }
