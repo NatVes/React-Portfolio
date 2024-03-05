@@ -7,8 +7,6 @@ import About from './pages/About';
 import ProjectGallery from './pages/Project-Gallery';
 import ProjInfo from './components/ProjInfo';
 import Contact from './pages/Contact';
-// import Footer from './components/Footer';
-// import './App.css'
 
 function App() {
 
@@ -16,10 +14,10 @@ function App() {
     <Router>
       <Container>
         <Row>
-          <Col size="md-3">
+          <Col size="lg-3">
             <NavBar />
           </Col>
-          <Col size="md-9" display="d-flex flex-column" position="justify-content-center">
+          <Col size="lg-9" display="d-flex flex-column" position="justify-content-lg-center">
             <Routes>
               <Route path="/" element={<About/>} />            
               <Route path="/project-gallery" element={<ProjectGallery/>} />

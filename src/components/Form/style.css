@@ -1,0 +1,10 @@
+:root {
+    --light:rgba(138, 166, 163, 0.5); 
+    --dark:rgb(73, 102, 99);
+    --offwhite:RGB(242, 242, 242);
+}
+
+label {
+    font-size: 20px;
+}
+

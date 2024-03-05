@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "../Footer";
 import "./style.css";
 
 function Form() {
@@ -49,18 +50,27 @@ function Form() {
     }
     
     return (
-        <form>
+            <>
+            <h2 className="mb-5 text-center">CONTACT ME</h2>
+            <form>
             <div className="mb-3">
                 <label for="FormControlInput1" className="form-label">Name</label>
-                <input type="text" className="form-control" id="FormControlInput1" placeholder="John Doe" value={formData.name} name="name" onChange={handleInputChange}/>
-                <label for="FormControlInput2" className="form-label">Email address</label>
-                <input type="email" className="form-control" id="FormControlInput2" placeholder="email@gmail.com" value={formData.email} name="email" onChange={handleInputChange} required/>
-                <label for="Textarea" className="form-label">Message</label>
-                <textarea className="form-control" id="Textarea" rows="3" value={formData.message} name="message" onChange={handleInputChange}></textarea>
+                <input type="text" className="form-control" id="FormControlInput1" placeholder="John Doe" value={formData.name} name="name" onChange={handleInputChange} />
             </div>
-            <button className="btn btn-primary" onClick={handleFormSend}>Send</button>
-            {submittedData.submitted && <p>Thank you {submittedData.emailMessage.name}! Your message will be sent soon</p>}
+            <div className="mb-3">
+                <label for="FormControlInput2" className="form-label">Email address</label>
+                <input type="email" className="form-control" id="FormControlInput2" placeholder="email@gmail.com" value={formData.email} name="email" onChange={handleInputChange} required />
+            </div>
+            <div className="mb-3">
+                <label for="Textarea" className="form-label">Message</label>
+                <textarea className="form-control" id="Textarea" rows="6" value={formData.message} name="message" onChange={handleInputChange}></textarea>
+            </div>
+            <div className="text-center">
+                <button className="btn" onClick={handleFormSend}>Send</button>
+            </div>
+            {submittedData.submitted && <p className="mt-3">Thank you {submittedData.emailMessage.name}! Your message will be sent soon</p>}
         </form>
+        </>            
     )
 }
 

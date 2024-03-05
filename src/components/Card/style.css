@@ -1,14 +1,17 @@
-.card {
-    position: relative;
-}
-.card > .img-container {
-    position: relative;   
+:root {
+    --light:rgba(138, 166, 163, 0.5); 
+    --dark:rgb(73, 102, 99);
+    --offwhite:RGB(242, 242, 242);
 }
 
 .card > .img-container > img {
-    /* position: absolute;
-    top: 0px; */
     object-fit: cover;
     width: 100%;
     height: 25vh;
 }
+
+.card {
+    background-color: var(--offwhite);
+    text-align: center;
+}
+
