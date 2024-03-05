@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import { Container, Row, Col } from './components/Grid';
 import NavBar from './components/NavBar';
 import About from './pages/About';
@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
 
   return (
-    <Router>
+    <BrowserRouter>
       <Container>
         <Row>
           <Col size="lg-3">
@@ -27,7 +27,7 @@ function App() {
           </Col>
         </Row>        
       </Container>
-    </Router>
+    </BrowserRouter>
   )
 }
 
