@@ -10,7 +10,7 @@ function NavBar() {
                 <div className="row">
                     <div className="col-12">
                         <div className="topImg">
-                        <img src="src/assets/me.jpg" alt="My photo" className="rounded-circle mb-3" width="200px"/>
+                        <img src="../../assets/me.jpg" alt="My photo" className="rounded-circle mb-3" width="200px"/>
                         <Link className="text-decoration-none" to="/">
                             <h3>NATALIA VESELOVA</h3>                            
                         </Link>
