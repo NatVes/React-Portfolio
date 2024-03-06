@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, HashRouter } from 'react-router-dom';
 import { Container, Row, Col } from './components/Grid';
 import NavBar from './components/NavBar';
 import About from './pages/About';
@@ -10,7 +10,7 @@ import Contact from './pages/Contact';
 function App() {
 
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter>
       <Container>
         <Row>
           <Col size="lg-3">
@@ -26,7 +26,7 @@ function App() {
           </Col>
         </Row>        
       </Container>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
