@@ -1,17 +1,16 @@
-import { useState } from 'react';
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import { Container, Row, Col } from './components/Grid';
 import NavBar from './components/NavBar';
 import About from './pages/About';
 import ProjectGallery from './pages/Project-Gallery';
-import ProjInfo from './components/ProjInfo';
+import ProjInfo from './pages/ProjInfo';
 import Contact from './pages/Contact';
 
 function App() {
 
   return (
-    <BrowserRouter basename='/React-Portfolio'>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Container>
         <Row>
           <Col size="lg-3">

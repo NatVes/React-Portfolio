@@ -1,8 +1,7 @@
-import { useState } from 'react';
-import { Container, Row, Col } from '../components/Grid';
+import { Row } from '../components/Grid';
 import ProjectCard from '../components/Card';
 import projectData from '../projects.json/';
-import ProjInfo from '../components/ProjInfo';
+
 
 function ProjectGallery() {
 
