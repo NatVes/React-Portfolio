@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer">   
             <h4>GET IN TOUCH</h4>
-            <div className="col d-flex justify-content-evenly mt-4">
+            <div className="col d-flex justify-content-evenly my-4">
                 <a class="text-decoration-none" href="mailto:nat.veselowa2010@yandex.ru" target="_blank">
                     <FontAwesomeIcon icon={faEnvelope} className="icon" />
                 </a>

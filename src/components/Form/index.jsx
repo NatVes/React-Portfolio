@@ -51,7 +51,7 @@ function Form() {
     
     return (
             <>
-            <h2 className="mb-5 text-center">CONTACT ME</h2>
+            <h2 className="my-5 text-center">CONTACT ME</h2>
             <form>
             <div className="mb-3">
                 <label for="FormControlInput1" className="form-label">Name</label>

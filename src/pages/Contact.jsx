@@ -9,7 +9,7 @@ function Contact() {
                 <Row position="justify-content-center">
                     <Col size="lg-5 md-8" >                        
                         <Form />
-                        <div className="mt-5 hideCont">
+                        <div className="my-5 hideCont">
                             <Footer />
                         </div>
                     </Col>
