@@ -2,7 +2,7 @@
     {
         "id": "0",
         "title": "Code Quiz",
-        "image": "./assets/CodeQuizdemo.gif",
+        "image": "./CodeQuizdemo.gif",
         "description": "This is a timed coding quiz application designed for coding boot camp students to test their knowledge of JavaScript fundamentals. The app features a clean, polished, and responsive user interface. The quiz includes multiple-choice questions, a countdown timer, and the ability to store and display user scores in descending order.",
         "deployedURL": "https://natves.github.io/Code-Quiz/",
         "githubURL": "https://github.com/NatVes/Code-Quiz"
@@ -10,7 +10,7 @@
     {
         "id": "1",
         "title": "Work Day Planner",
-        "image": "./assets/WorkDayPlannerdemo.gif",
+        "image": "./WorkDayPlannerdemo.gif",
         "description": "This is a simple calendar application designed for busy employees who want to effectively manage their daily schedule. The application runs in the browser and features dynamically updated HTML and CSS powered by jQuery. It utilizes the Day.js library to work with date and time, focusing on using Day.js in the browser.",
         "deployedURL": "https://natves.github.io/Work-Day-Planner/",
         "githubURL": "https://github.com/NatVes/Work-Day-Planner"
@@ -18,7 +18,7 @@
     {
         "id": "2",
         "title": "Weather Dashboard",
-        "image": "./assets/WeatherDashboardscreenshot.png",
+        "image": "./WeatherDashboardscreenshot.png",
         "description": "Welcome to the Weather Dashboard project! This web application is designed to provide users with a convenient way to check the weather outlook for multiple cities. The dashboard dynamically updates HTML and CSS to display current and future weather conditions. Users can also access a 5-day forecast for the selected city.",
         "deployedURL": "https://natves.github.io/Weather-Dashboard/",
         "githubURL": "https://github.com/NatVes/Weather-Dashboard"
@@ -26,7 +26,7 @@
     {
         "id": "3",
         "title": "Gastronomic Globe",
-        "image": "./assets/GastronomicGlobedemo.gif",
+        "image": "./GastronomicGlobedemo.gif",
         "description": "Welcome to Gastronomic Globe, an exciting app that takes you on a culinary journey around the world! As a foodie, you can explore and try out delicious recipes from different countries without leaving your kitchen. The app allows you to choose your desired food type and the country of origin, providing you with a map to visualize the location and a random recipe to try.",
         "deployedURL": "https://natves.github.io/Gastronomic-Globe/",
         "githubURL": "https://github.com/NatVes/Gastronomic-Globe"
@@ -34,7 +34,7 @@
     {
         "id": "4",
         "title": "README Generator",
-        "image": "./assets/ReadmeGenerator.png",
+        "image": "./ReadmeGenerator.png",
         "description": "This command-line application dynamically generates a professional README.md file based on user input using the Inquirer package. The README Generator simplifies the task of creating a well-structured README.md file for your open-source projects on GitHub. With a few simple prompts, you can create a README that includes essential sections such as project description, installation instructions, usage guidelines, contribution guidelines, test instructions, and licensing information.",
         "deployedURL": null,
         "githubURL": "https://github.com/NatVes/README-Generator"
@@ -42,7 +42,7 @@
     {
         "id": "5",
         "title": "Team Profile Generator",
-        "image": "./assets/Myteam.gif",
+        "image": "./Myteam.gif",
         "description": "This command-line application is designed to dynamically generate an HTML webpage that displays summaries for each employee on a software engineering team. It caters to the needs of managers who require quick access to their team members' essential information such as email addresses and GitHub profiles. With a user-friendly interface, the application allows seamless input of data for the team manager, engineers, and interns, facilitating the generation of a comprehensive webpage.",
         "deployedURL": null,
         "githubURL": "https://github.com/NatVes/Team-Profile-Generator"

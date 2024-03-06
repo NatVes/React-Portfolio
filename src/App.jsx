@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/React-Portfolio'>
       <Container>
         <Row>
           <Col size="lg-3">

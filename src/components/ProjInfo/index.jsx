@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useParams } from "react-router-dom";
-import projectData from "../../projects.json";
+import projectData from "../../projects.json/";
 import { Container, Row, Col } from "../Grid";
 import "./style.css";
 
