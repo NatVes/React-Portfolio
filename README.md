@@ -23,11 +23,11 @@ The portfolio includes sections for my name, contact information (GitHub profile
 
 The following image shows the web application's appearance and functionality:
 
-![Portfolio-Screenshot](./src/assets/Portfolio-Screenshot.png)
+![Portfolio-Screenshot](./src/assets/PortfolioScreenshot.png)
 
 ## Usage
 
-To check out my portfolio open the [React-Portfolio](#) in a web browser. 
+To check out my portfolio open the [React-Portfolio](https://natves.github.io/React-Portfolio/) in a web browser. 
 
 Upon opening the portfolio, users can navigate through the various sections to learn more about me, view my projects, and access my contact information. They can also click on project titles to see more details and links to the deployed versions and GitHub repositories.
 
