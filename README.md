@@ -23,7 +23,7 @@ The portfolio includes sections for my name, contact information (GitHub profile
 
 The following image shows the web application's appearance and functionality:
 
-![Portfolio-Screenshot](./src/assets/PortfolioScreenshot.png)
+![Portfolio-Screenshot](./public/PortfolioScreenshot.png)
 
 ## Usage
 
